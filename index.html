@@ -1,17 +1,95 @@
+<!DOCTYPE html>
 <html>
   <head>
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1" color="#FFC65D"></a-cylinder>
-      <a-cone color="tomato" position="2 0.75 -5" radius-bottom="1" radius-top="0.2"></a-cone>
-      <a-ring color="teal" position="3 1.5 -2" radius-inner="1" rotation="0 45 0" radius-outer="2"></a-ring>
-      <a-triangle color="#CCC" vertex-c="1 -1 0"></a-triangle>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+      <!-- dinding depan -->
+      <a-box color="#276c91" position="0 2 0" rotation="0 0 0" width="4" height="0.5" depth="0.5">
+      </a-box>
+      <a-box color="#276c91" position="0.87 0 0" rotation="0 0 0" width="2.27" height="1" depth="0.5">
+      </a-box>
+      
+      <a-box color="#276c91" position="-1.5 0.87 0" rotation="0 0 0" width="2.5" height="2.75" depth="0.5">
+      </a-box>
+      <a-box color="#276c91" position="1.5 1.1 0" rotation="0 0 0" width="1" height="1.3" depth="0.5">
+      </a-box>
+      
+      <a-box color="#276c91" position="4.5 0.87 0" rotation="0 0 0" width="2" height="2.75" depth="0.5">
+      </a-box>
+      
+      <a-box color="#276c91" position="7 2 -1.8" rotation="0 0 0" width="4" height="0.5" depth="0.5">
+      </a-box>
+      <a-box color="#276c91" position="7 0 -1.8" rotation="0 0 0" width="4" height="1" depth="0.5">
+      </a-box>
+      
+      <a-box color="#276c91" position="8.5 1.1 -1.8" rotation="0 0 0" width="1" height="1.3" depth="0.5">
+      </a-box>
+      <a-box color="#276c91" position="6 1.1 -1.8" rotation="0 0 0" width="1" height="1.3" depth="0.5">
+      </a-box>
+      
+      <!-- //dinding depan -->
+
+      <!-- dinding kiri -->
+      <a-box color="#276c91" position="-2.5 0.87 -3.15" rotation="0 90 0" width="6.8" height="2.75" depth="0.5">
+      </a-box>
+      
+      <!-- dinding kanan -->
+      <a-box color="#276c91" position="5.25 0.87 -2.55" rotation="0 90 0" width="4.7" height="2.75" depth="0.5">
+      </a-box>
+      
+      <a-box color="#276c91" position="9.25 0.87 -4.05" rotation="0 90 0" width="5" height="2.75" depth="0.5">
+      </a-box>
+      
+      <a-box color="#276c91" position="3.5 0.87 -6.3" rotation="0 0 0" width="11.5" height="2.75" depth="0.5">
+      </a-box>
+      
+      <!-- belakang bawah -->
+      <a-box color="#276c91" position="7 0 -1.8" rotation="0 0 0" width="4" height="1" depth="0.5">
+      </a-box>
+      
+      <!-- atas -->
+      <a-box color="#276c91" position="1.38 2.4 -2.05" width="8.25" height="0.3" depth="9"></a-box>
+      <a-box color="#276c91" position="7.5 2.4 -0.55" width="4" height="0.3" depth="12"></a-box>
+
+      <!-- tiang -->
+      <a-cylinder position="5.3 1 2" color="crimson" height="3" radius="0.2"></a-cylinder>
+      <a-cylinder position="-2.4 1 2" color="crimson" height="3" radius="0.2"></a-cylinder>
+      <a-cylinder position="5.8 1 5" color="crimson" height="3" radius="0.2"></a-cylinder>
+      <a-cylinder position="9.2 1 5" color="crimson" height="3" radius="0.2"></a-cylinder>
+      
+      <!-- lantai 2 -->
+      <a-box color="#114a69" position="1.39 2.8 2.2" rotation="0 0 0" width="8.28" height="0.5" depth="0.5">
+      </a-box>
+      <a-box color="#114a69" position="7.5 2.8 5.2" rotation="0 0 0" width="4" height="0.5" depth="0.5">
+      </a-box>
+      <a-box color="#114a69" position="3.38 2.8 -6.3" rotation="0 0 0" width="12.25" height="0.5" depth="0.5">
+      </a-box>
+      
+      <a-box color="#114a69" position="-2.5 2.8 -1.7" rotation="0 90 0" width="8.28" height="0.5" depth="0.5">
+      </a-box>
+      <a-box color="#114a69" position="9.25 2.8 -0.55" rotation="0 90 0" width="11" height="0.5" depth="0.5">
+      </a-box>
+      <a-box color="#114a69" position="5.75 2.8 3.5" rotation="0 90 0" width="3.1" height="0.5" depth="0.5">
+      </a-box>
+      
+      <!-- atap -->
+      <a-box color="#7b5c33" position="0.2 3.8 -1.8" rotation="0 0 25" width="6.5" height="0.1" depth="7.5">
+      </a-box>
+      <a-box color="#7b5c33" position="6.1 3.8 -1.8" rotation="0 0 -25" width="6.5" height="0.1" depth="7.5">
+      </a-box>
+      
+      <a-box color="#717171" position="3 -0.6 -1" rotation="90 0 0" height="14" width="15" depth="0.2"></a-box>
+      
+      <a-entity id="#rig" position="0 5 5">
+        <a-entity id="camera" camera look-controls></a-entity>
+      </a-entity>
+      
+      <camera position="0 1 5"></camera>
+      
+      <a-sky src="#" color="black"></a-sky>
+
     </a-scene>
   </body>
 </html>
